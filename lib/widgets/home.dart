@@ -5,6 +5,7 @@ import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'camera-header.dart';
 import 'camera-screen.dart';
+import 'camera-button.dart';
 
 class Home extends StatefulWidget {
   final CameraDescription camera;
@@ -94,6 +95,13 @@ class HomeState extends State<Home> with TickerProviderStateMixin, WidgetsBindin
                 Recognition(
                   ready: true,
                 ),
+
+                // CameraButton(
+                //   ripplesAnimationController: null,
+                //   onToggle: () {
+                //     print('Hello');
+                //   },
+                // )
               ],
             );
           } else {

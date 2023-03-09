@@ -1,4 +1,4 @@
-package com.example.WatcherBot
+package com.example.fslbase
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -10,7 +10,7 @@ class CameraButton extends StatelessWidget {
     return Container(
       alignment: Alignment.bottomCenter,
       child: Stack(
-        overflow: Overflow.visible,
+        // overflow: Overflow.visible,
         alignment: Alignment.center,
         children: <Widget>[
           Container(

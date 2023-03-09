@@ -53,7 +53,7 @@ class _RecognitionState extends State<Recognition> {
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
-        height: 200,
+        height: 300,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
